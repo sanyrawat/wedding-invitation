@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom wedding theme styles */
+body {
+  @apply font-sans bg-gradient-to-br from-pink-50 to-rose-100 text-gray-800;
+}
