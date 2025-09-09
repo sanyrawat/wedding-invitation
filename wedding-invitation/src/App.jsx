@@ -68,24 +68,25 @@ export default function App() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('https://your-couple-image-link.com/couple.jpg')`,
+            backgroundImage: `url('/DSC_0253.JPG')`,
           }}
         ></div>
 
         {/* Decorative top ribbon with shimmer */}
-        <motion.div
-          className="absolute -top-6 left-1/2 -translate-x-1/2 bg-gradient-to-r from-pink-300 to-yellow-200 rounded-full px-6 py-2 text-sm font-semibold text-gray-700 shadow-md"
-          animate={{ opacity: [1, 0.7, 1] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          Wedding Invitation
-        </motion.div>
+       <motion.div
+  className="absolute -top-0 left-1/2 -translate-x-1/2 bg-gradient-to-r from-pink-300 to-yellow-200 rounded-full px-6 py-2 text-sm font-semibold text-gray-700 shadow-md whitespace-nowrap"
+  animate={{ opacity: [1, 0.7, 1] }}
+  transition={{ duration: 2, repeat: Infinity }}
+>
+  Wedding Invitation
+</motion.div>
+
 
         {/* Content wrapper so text sits above image */}
         <div className="relative z-10">
           {/* Bride & Groom names */}
           <h2 className="text-5xl font-extrabold text-pink-600 mt-4 mb-2 font-serif drop-shadow-md">
-            Sany <span className="text-3xl text-gray-500">&</span> Ankita
+            Sany <span className="text-3xl text-gray-500"><br />&</span> <br />Ankita
           </h2>
           <p className="text-lg text-gray-600 italic mb-6 drop-shadow">
             “Two souls, one journey, a lifetime of love.”
@@ -94,9 +95,9 @@ export default function App() {
           {/* Parents introduction */}
           <div className="mb-6 text-gray-700 text-sm">
             <p>With the blessings of our beloved parents,</p>
-            <p className="font-medium">
-              Mr. & Mrs. fgfjh <br />
-              Mr. & Mrs. hjfgh
+            <p className="font-bold">
+              Mr. & Mrs. GopalJi Rawat, <br />
+              Mr. & Mrs. Durga Prasad Rawat
             </p>
             <p>We request your presence to celebrate this union.</p>
           </div>
@@ -106,14 +107,14 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="bg-pink-50/90 border border-pink-200 rounded-xl py-6 px-6 mb-6 shadow-inner"
+            className="bg-pink-50/90 border border-pink-200 rounded-xl py-6 px-6 mb-6 shadow-inner text-left"
           >
             <h3 className="text-xl font-semibold text-pink-600 mb-2">
               Wedding Ceremony
             </h3>
-            <p className="text-lg">📅 <b>22nd November 2025</b></p>
+            <p className="text-lg">🥁 <b>22nd Nov 2025</b></p>
             <p className="text-lg">⏰ <b>06:00 PM Onwards</b></p>
-            <p className="text-lg">📍 <b>Basti, UP, India</b></p>
+            <p className="text-lg">📍 <b>Prince Garden Marriage Hall, Station Road, Chiyabari Basti, UP, India</b></p>
           </motion.div>
 
           {/* Reception details */}
@@ -121,14 +122,14 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="bg-yellow-50/90 border border-yellow-200 rounded-xl py-6 px-6 mb-6 shadow-inner"
+            className="bg-yellow-50/90 border border-yellow-200 rounded-xl py-6 px-6 mb-6 shadow-inner text-left"
           >
             <h3 className="text-xl font-semibold text-yellow-600 mb-2">
               Reception Party
             </h3>
-            <p className="text-lg">📅 <b>25th November 2025</b></p>
+            <p className="text-lg">🥂 <b>25th Nov 2025</b></p>
             <p className="text-lg">⏰ <b>7:00 PM Onwards</b></p>
-            <p className="text-lg">📍 <b>Lucknow, UP, India</b></p>
+            <p className="text-lg">📍 <b>Isha Niwas, Sardar Patel Nagar, Maharajganj, Azamgarh, UP, India</b></p>
           </motion.div>
 
           {/* RSVP */}
@@ -139,7 +140,7 @@ export default function App() {
             className="text-gray-700 italic"
           >
             <p>Please RSVP before 15th Nov</p>
-            <p className="font-medium">📞 +91-234567</p>
+            <p className="font-medium">📞 +91-9415005761</p>
           </motion.div>
         </div>
       </motion.div>
